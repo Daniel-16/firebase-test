@@ -4,11 +4,17 @@
   "description": "Just a basic firebase test",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "build": "webpack --mode=development"
   },
+  "type": "module",
   "author": "Daniel Oloruntoba",
   "license": "MIT",
   "dependencies": {
     "firebase": "^9.22.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
   }
 }
